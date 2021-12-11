@@ -4,7 +4,7 @@
 
 variable "aws_region" {
   description = "Region where to deploy the Nextcloud application and the database"
-  default = "eu-west-1"
+  default = "us-east-1"
 }
 variable "nextcloud_instance_type" {
     description = "Instance type for the Nextcloud application"
