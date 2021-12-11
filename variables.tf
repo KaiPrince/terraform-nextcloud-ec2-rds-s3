@@ -72,7 +72,7 @@ variable "admin_pass" {
 
 variable "s3_bucket_name" {
   description = "Name of the S3 bucket to use as datastore"
-  default = "nextcloud-datastore"
+  default = "nextcloud-datastore-2"
 }
 
 variable "force_datastore_destroy" {
